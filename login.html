@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The dark side of the code</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+    body {
+      background-image: url("https://cdn.pixabay.com/photo/2019/05/31/02/08/iron-man-4241268_1280.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .login {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 400px;
+    }
+
+    .login__title h1 {
+      font-size: 34px;
+      color: white;
+    }
+
+    .login__content {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 250px;
+      background-color: white;
+      justify-content: space-between;
+    }
+
+    .login__content label {
+      font-size: 18px;
+      color: #7f78d2;
+      font-weight: bold;
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+
+    .login__content input {
+      border-bottom: 3px solid #7f78d2;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      margin: 0px 15px;
+      padding: 5px 0px;
+    }
+
+    .login__content button {
+      background-color: #7f78d2;
+      color: white;
+      width: 100%;
+      padding: 10px;
+      height: 50px;
+      border: 0;
+      margin-bottom: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .login__footer a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <div class="login__title">
+      <h1>Platzi Master</h1>
+    </div>
+    <div class="login__content">
+      <label>Nombre</label>
+      <input type="email" placeholder="pepito@platzimaster.com" />
+      <label>Contrase&ntilde;a</label>
+      <input type="password" placeholder="***********" />
+      <button type="submit">Iniciar sesi&oacute;n</button>
+    </div>
+    <div class="login__footer">
+      <a href="#">¿Olvidaste tu contrase&ntilde;a? </a>
+    </div>
+</body>
+
+</html>
